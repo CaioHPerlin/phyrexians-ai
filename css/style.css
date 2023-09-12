@@ -1,3 +1,13 @@
+@font-face {
+    font-family: Phyrexian;
+    src: url(../fonts/Serratus.otf);
+}
+
+.phyrexian{
+    font-family: Phyrexian;
+    color: white;
+}
+
 *{
     padding: 0;
     margin: 0;
