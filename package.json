@@ -1,0 +1,20 @@
+{
+  "name": "ifms-portfolio",
+  "version": "1.0.0",
+  "description": "AI-generated phyrexian Magic: The Gathering cards!",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "start index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CaioHPerlin/ifms-portfolio.git"
+  },
+  "author": "CaioHPerlin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CaioHPerlin/ifms-portfolio/issues"
+  },
+  "homepage": "https://github.com/CaioHPerlin/ifms-portfolio#readme"
+}
