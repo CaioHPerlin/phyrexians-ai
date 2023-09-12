@@ -1,21 +1,25 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
 @font-face {
     font-family: Phyrexian;
     src: url(../fonts/Serratus.otf);
 }
 
 .phyrexian{
+    text-align: center;
     font-family: Phyrexian;
-    color: white;
-}
-
-*{
-    padding: 0;
-    margin: 0;
 }
 
 body{
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
     background-color: rgb(40, 26, 41);
     min-height: 200vh;
+    display: flex;
+    justify-content: center;
 }
 
 body::after{
@@ -28,4 +32,15 @@ body::after{
     right: 0;
     position: fixed;
     z-index: -1;
+}
+
+.container{
+    padding: 5% 10%;
+    width: 80%;
+}
+
+main{
+    text-align: justify;
+    font-size: 2vmax;
+    padding: 20px;
 }
