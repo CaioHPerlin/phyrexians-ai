@@ -44,3 +44,33 @@ main{
     font-size: 2vmax;
     padding: 20px;
 }
+
+.card{
+    display: grid;
+    grid-template-columns: 100%;
+    grid-gap: 10px;
+    width: 350px;
+    padding: 15px;
+    background-color: black;
+}
+
+.card h1{
+    font-size: 24pt;
+}
+
+.card img{
+    width: 100%;
+}
+
+.card h2{
+    font-size: 16pt;
+}
+
+.card p{
+    text-align: left;
+    font-size: 14pt;
+}
+
+.card .flavor{
+    font-style: italic;
+}
