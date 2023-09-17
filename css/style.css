@@ -56,7 +56,7 @@ main{
     display: grid;
     grid-template-columns: 100%;
     width: 350px;
-    color: rgb(234, 193, 238); 
+    color: rgb(240, 224, 241); 
     background-color: rgba(110, 80, 113, 0.15);
     border: 1px solid black;
     padding: 10px;
