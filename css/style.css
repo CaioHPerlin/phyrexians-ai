@@ -20,16 +20,18 @@
 }
 
 body{
+    display: grid;
+    grid-template-columns: 100%;
+    justify-items: center;
     font-family: 'Times New Roman', Times, serif;
     color: white;
     background-color: rgb(40, 26, 41);
-    justify-content: center;
-    padding: 10px;
 }
 
 body::after{
     content: "";
     background-image: url(../images/bg.jpg);
+    background-size: cover;
     opacity: 0.3;
     top: 0;
     left: 0;
@@ -40,10 +42,9 @@ body::after{
 }
 
 main{
+    width: 90%;
     display: grid;
     grid-template-columns: 100%;
-    width: 90%;
-    margin: 0 auto;
     text-align: justify;
     font-size: 2vmax;
 }
@@ -53,13 +54,13 @@ main{
     justify-items: center;
     justify-content: space-between;
     grid-template-columns: 25% 25% 25%;
+    grid-row-gap: 30px;
 }
 
 .card{
     font-family: Beleren, Times, sans-serif;
     display: grid;
     grid-template-columns: 100%;
-    width: 370px;
     color: rgb(240, 224, 241); 
     background-color: rgba(110, 80, 113, 0.15);
     border: 1px solid black;
@@ -150,11 +151,25 @@ main{
     font-size: 1.5em;
 }
 
-@media (max-width:641px)  { 
-    .card{
-        width: 100%;
+@media (min-width:1600px){
+    .card-list{
+        grid-template-columns: 20% 20% 20% 20%;
     }
 }
-@media (min-width:961px)  { /* tablet, landscape iPad, lo-res laptops ands desktops */ }
-@media (min-width:1025px) { /* big landscape tablets, laptops, and desktops */ }
-@media (min-width:1281px) { /* hi-res laptops and desktops */ }
+
+@media (max-width:961px)  { 
+    .card-list{
+        grid-template-columns: 40% 40%;
+        justify-content: space-around;
+    }
+}
+
+@media (max-width:770px)  { 
+    main{
+        width: 90%;
+    }
+    .card-list{
+        grid-template-columns: 100%;
+        justify-content: space-around;
+    }
+}
