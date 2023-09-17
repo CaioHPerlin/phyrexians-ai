@@ -55,13 +55,23 @@ main{
     font-weight: normal !important;
     display: grid;
     grid-template-columns: 100%;
-    width: 350px;
+    width: 370px;
     color: rgb(240, 224, 241); 
     background-color: rgba(110, 80, 113, 0.15);
     border: 1px solid black;
     padding: 10px;
     border-radius: 10px;
     box-shadow: -4px 9px 20px -3px rgb(0, 0, 0);
+    -webkit-transform: translateY(50px);
+    transform: translateY(50px);
+    -webkit-transition: 0.2s ease 0s;
+    transition: 0.2 ease 0s;
+}
+
+.card:hover{
+    background-color: rgba(43, 28, 44, 0.7);
+    transform: translateY(0px);
+    transition: 0.2 ease 0s;
 }
 
 .card > *{
