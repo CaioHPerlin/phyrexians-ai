@@ -52,10 +52,13 @@ main{
 
 .card{
     font-family: Beleren, Times, sans-serif;
+    font-weight: normal !important;
     display: grid;
     grid-template-columns: 100%;
     width: 350px;
     background: rgb(40, 26, 41);
+    background: #fdffee;
+    color: black;
     border-radius: 10px;
     box-shadow: -8px 9px 16px -3px rgb(0, 0, 0);
 }
@@ -65,30 +68,34 @@ main{
 }
 
 .card h1{
-    padding: 5px 10px;
+    font-size: calc(14px + 0.390625vw);
 }
 
 .card h1, .card h2{
-    font-size: 1.25vmax;
+    display: inline-flex;
+    display: inline-flex;
+    justify-content: space-between;
+    align-items: center;
     text-wrap: nowrap;
     border-radius: 10px;
-    padding: 5px 5px;
+    padding: 2px 5px;
     border: 3px solid rgb(74, 51, 74);
-    border-top: none;
 }
 
 .card h2{
-    display: inline-flex;
-    justify-content: space-between;
+    font-size: calc(12px + 0.390625vw);
+    border-top: none;
 }
 
 .card i {
-    padding: 0 20px;
+    padding: 0 5px;
 }
 
 .card img{
+    box-sizing: border-box;
+    padding: 5px 5px;
     width: 100%;
-    border-radius: 10px;
+    border-radius: 0px;
 }
 
 .card > div{
@@ -98,11 +105,17 @@ main{
 }
 
 .card p{
+    font-size: calc(10px + 0.390625vw);
     text-align: left;
-    font-size: 14pt;
     line-height: 20pt;
 }
 
 .card .flavor{
     font-style: italic;
+}
+
+
+/*Custom Icon Sizing*/
+.ss-1-5x {
+    font-size: 1.5em;
 }
