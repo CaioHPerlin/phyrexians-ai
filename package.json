@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/CaioHPerlin/ifms-portfolio/issues"
   },
-  "homepage": "https://github.com/CaioHPerlin/ifms-portfolio#readme"
+  "homepage": "https://github.com/CaioHPerlin/ifms-portfolio#readme",
+  "dependencies": {
+    "keyrune": "^3.12.2"
+  }
 }
