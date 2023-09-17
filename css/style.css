@@ -114,7 +114,10 @@ main{
 .card img{
     box-sizing: border-box;
     padding: 5px 5px;
-    width: 100%;
+    width: 350px;
+    height: 255px;
+    object-fit: cover;
+    object-position: 75% 25%;
     border-radius: 0px;
 }
 
@@ -144,6 +147,7 @@ main{
     border: 1px solid;
     padding: 5px 15px;
     border-radius: 10px;
+    height: 40px;
 }
 
 /*Custom Icon Sizing*/
