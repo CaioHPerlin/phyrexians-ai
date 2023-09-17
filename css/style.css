@@ -56,11 +56,12 @@ main{
     display: grid;
     grid-template-columns: 100%;
     width: 350px;
-    background: rgb(40, 26, 41);
-    background: #fdffee;
-    color: black;
+    color: rgb(234, 193, 238); 
+    background-color: rgba(110, 80, 113, 0.15);
+    border: 1px solid black;
+    padding: 10px;
     border-radius: 10px;
-    box-shadow: -8px 9px 16px -3px rgb(0, 0, 0);
+    box-shadow: -4px 9px 20px -3px rgb(0, 0, 0);
 }
 
 .card > *{
@@ -77,14 +78,12 @@ main{
     justify-content: space-between;
     align-items: center;
     text-wrap: nowrap;
-    border-radius: 10px;
     padding: 2px 5px;
-    border: 3px solid rgb(74, 51, 74);
+    border-radius: 10px;
 }
 
 .card h2{
     font-size: calc(12px + 0.390625vw);
-    border-top: none;
 }
 
 .card h2> div, .card h1> div {
@@ -93,6 +92,7 @@ main{
 
 .card h1 i{
     font-size: 1rem;
+    margin: 0 1px;
 }
 
 .card img{
@@ -118,6 +118,17 @@ main{
     font-style: italic;
 }
 
+.card .pt-marker{
+    padding: 0 10px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.card .pt-marker>p{
+    border: 1px solid;
+    padding: 5px 15px;
+    border-radius: 10px;
+}
 
 /*Custom Icon Sizing*/
 .ss-1-5x {
