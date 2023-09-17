@@ -87,6 +87,7 @@ main{
 }
 
 .card h2> div, .card h1> div {
+    overflow: hidden;
     margin: 0 5px;
 }
 
@@ -109,7 +110,7 @@ main{
 }
 
 .card p{
-    font-size: calc(10px + 0.390625vw);
+    font-size: calc(12px + 0.390625vw);
     text-align: left;
     line-height: 20pt;
 }
@@ -134,3 +135,12 @@ main{
 .ss-1-5x {
     font-size: 1.5em;
 }
+
+@media (max-width:641px)  { 
+    .card{
+        width: 100%;
+    }
+}
+@media (min-width:961px)  { /* tablet, landscape iPad, lo-res laptops ands desktops */ }
+@media (min-width:1025px) { /* big landscape tablets, laptops, and desktops */ }
+@media (min-width:1281px) { /* hi-res laptops and desktops */ }
