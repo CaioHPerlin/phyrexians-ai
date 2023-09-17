@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/CaioHPerlin/ifms-portfolio#readme",
   "dependencies": {
-    "keyrune": "^3.12.2"
+    "keyrune": "^3.12.2",
+    "mana-font": "^1.15.9"
   }
 }
