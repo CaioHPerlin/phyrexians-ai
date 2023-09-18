@@ -13,7 +13,7 @@ Recursos:
 * 📃 Imagens de Inteligência Artificial : https://app.leonardo.ai
 * 📃 Ícones de Versão do Magic : https://github.com/andrewgioia/keyrune
 * 📃 Ícones de Mana : https://github.com/andrewgioia/Mana
-* 📃 Hosting : vercel.com
+* 📃 Hosting : https://vercel.com/ e [Github Pages](https://caiohperlin.github.io/ifms-portfolio/)
 
 ### 🛠 Tecnologias
 
@@ -25,10 +25,10 @@ As seguintes ferramentas foram usadas na construção do projeto:
 ## 🚀 Como executar o projeto
 
 - Clone o repositório
-- Execute ```bash npm run dev``` na raíz do projeto
+- Execute ```npm run dev``` na raíz do projeto
 - Pronto!
 
-Alternativamente, abra o link da vercel https://ifms-portfolio.vercel.app/ e verifique o projeto hosteado.
+Alternativamente, abra o link do [Github Pages](https://caiohperlin.github.io/ifms-portfolio/) ou o da [Vercel](https://ifms-portfolio.vercel.app/) e verifique o projeto hosteado.
 
 ---
 
