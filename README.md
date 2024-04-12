@@ -6,7 +6,7 @@
   <br />
 </div>
 
-  <img src="https://media.discordapp.net/attachments/937212146817851392/1215188949048496199/image.png?ex=65fbd7e6&is=65e962e6&hm=fb3337883c9ba9376c88ff1b509cc843d264aaf8f55eaf81d0ae577b2728f294&=&format=webp&quality=lossless&width=1202&height=682" alt="screenshot site" >
+  <img src="https://cdn.discordapp.com/attachments/937212146817851392/1228494282525245481/screenshot.png?ex=662c3f75&is=6619ca75&hm=b48ccbfdadcdc0488c9ca23b2615b72799c548bdf0b51fa53e4261632ca73cb8&" alt="screenshot site" >
 
 Recursos:
 
@@ -34,6 +34,6 @@ Alternativamente, abra o link do [Github Pages](https://caiohperlin.github.io/if
 
 ### Autor
 
-<img src="https://media.discordapp.net/attachments/937212146817851392/1215189242464960562/foto.png?ex=65fbd82c&is=65e9632c&hm=6662e32b3b569beca712664a765b442d0dcb2fd6d985b3f1ff97c1b980f4531f&=&format=webp&quality=lossless&width=440&height=437" alt="author picture" >
+<img src="https://media.licdn.com/dms/image/D4D35AQFNrc8Mad7aEw/profile-framedphoto-shrink_200_200/0/1708116532700?e=1713571200&v=beta&t=I2J7jkLc--7mm42Q3B9xryTQ7f8RYiNpsgG0_25OgSk" alt="author picture" >
 <a href="https://github.com/caiohperlin">Caio Hygino Perlin de Lima</a>
 
